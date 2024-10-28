@@ -38,7 +38,7 @@ b3 = {'objRect': pygame.Rect(275, 150, 40, 40), 'cor': AMARELO, 'vel': [0, -1]}
 b4 = {'objRect': pygame.Rect(75, 150, 40, 40), 'cor': AZUL, 'vel': [0, 4]}
 blocos = [b1, b2, b3, b4]
 
-bola = {'objRect': pygame.Rect(255, 255, 255, 128), 'cor': BRANCO, 'vel': [3, 3]}
+bola = {'objRect': pygame.Rect(255, 255, 255, 128), 'cor': TRANSPARENTE, 'vel': [3, 3]}
 deve_continuar = True
 
 while deve_continuar:
