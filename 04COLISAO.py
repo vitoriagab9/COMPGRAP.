@@ -6,6 +6,7 @@ VERMELHO = (255, 0, 0)
 VERDE = (0, 255, 0)
 AZUL = (0, 0, 255)
 BRANCO = (255, 255, 255)
+TRANSPARENTE = (0, 0, 0)
 
 LARGURAJANELA = 500 
 ALTURAJANELA = 400
@@ -36,7 +37,8 @@ b1 = {'objRect': pygame.Rect(375, 80, 40, 40), 'cor': VERMELHO, 'vel': [0, 1]}
 b2 = {'objRect': pygame.Rect(175, 200, 40, 40), 'cor': VERDE, 'vel': [0, -3]}
 b3 = {'objRect': pygame.Rect(275, 150, 40, 40), 'cor': AMARELO, 'vel': [0, -1]}
 b4 = {'objRect': pygame.Rect(75, 150, 40, 40), 'cor': AZUL, 'vel': [0, 4]}
-blocos = [b1, b2, b3, b4]
+b5 = {'objRect': pygame.Rect(100, 100, 40, 40), 'cor': AZUL, 'vel': [2, 2]}
+blocos = [b1, b2, b3, b4, b5]
 
 bola = {'objRect': pygame.Rect(255, 255, 255, 128), 'cor': TRANSPARENTE, 'vel': [3, 3]}
 deve_continuar = True
